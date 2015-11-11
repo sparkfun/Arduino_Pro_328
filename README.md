@@ -39,3 +39,4 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
+_**Note:** A portion of this sale is given back to Arduino LLC to help fund continued development of new tools and new IDE features._
