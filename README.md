@@ -7,7 +7,7 @@ Arduino Pro 328
 
 Arduino Pro does not come with connectors populated so that you can solder in any connector or wire with any orientation you need. 
 We recommend first time Arduino users start with the Uno R3. It’s a great board that will get you up and running quickly. 
-The Arduino Pro series is meant for users that understand the limitations of system voltage (3.3V), lack of connectors, and USB off board.
+The Arduino Pro series is meant for users that understand the limitations of system voltage, lack of connectors, and USB off board.
 
 Repository Contents
 -------------------
