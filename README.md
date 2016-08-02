@@ -25,6 +25,21 @@ Product Versions
 * [3.3V/8MHz: DEV-10914](https://www.sparkfun.com/products/10914)- 3.3V/8MHz version of the Arduino Pro. 
 * [5V/16MHz: DEV-10915] (https://www.sparkfun.com/products/10915)- 5V/16MHz version of the Arduino Pro. 
 
+Revision History
+----------------
+Changes to v14 (date code: 8-24-11)
+* updated library to increase annular ring size on all thru-hole pads (including package change on buzzer PTH)
+* reposition 6x1 serial header to no longer overhang board
+* BOM CHANGE - changes smd slide switch to stronger package with side mount tabs
+
+Changes to v15 (date code: 9-21-11)
+* changed package on the Buzzer to not include silk
+
+Changes to v16 (date code: 12-20-11)
+* Added OSHW logo
+
+Changes to v17
+* Added juicy silk graphics
 
 License Information
 -------------------
