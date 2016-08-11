@@ -5690,7 +5690,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="1K">
 <attribute name="PROD_ID" value="RES-07856"/>
 </part>
-<part name="Q1" library="SparkFun" deviceset="RESONATOR" device="SMD">
+<part name="Q1" library="SparkFun" deviceset="RESONATOR" device="SMD" value="8/16MHz">
 <attribute name="PROD_ID" value="XTAL-08900"/>
 </part>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -10031,8 +10031,8 @@ programming port.</text>
 <attribute name="PROD_ID" x="215.9" y="132.08" size="1.27" layer="96" font="vector" rot="MR0" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="139.7" y="121.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="136.652" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="145.288" y="115.824" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="144.272" y="120.65" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="135.128" y="113.284" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="PROD_ID" x="139.7" y="121.92" size="1.27" layer="96" font="vector" rot="MR0" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="139.7" y="109.22" smashed="yes" rot="MR0">
@@ -10056,7 +10056,7 @@ programming port.</text>
 <attribute name="NAME" x="86.36" y="147.32" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="JP9" gate="G$1" x="93.98" y="17.78" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="88.9" y="27.94" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="86.36" y="27.94" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="88.9" y="6.858" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="PROD_ID" x="93.98" y="17.78" size="1.27" layer="96" font="vector" rot="MR180" display="off"/>
 </instance>
@@ -10106,11 +10106,11 @@ programming port.</text>
 <instance part="P+11" gate="1" x="215.9" y="78.74" smashed="yes">
 <attribute name="VALUE" x="214.884" y="82.296" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND12" gate="1" x="111.76" y="7.62" smashed="yes">
-<attribute name="VALUE" x="109.22" y="5.08" size="1.778" layer="96" font="vector"/>
+<instance part="GND12" gate="1" x="109.22" y="5.08" smashed="yes">
+<attribute name="VALUE" x="106.68" y="2.54" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+3" gate="1" x="111.76" y="22.86" smashed="yes">
-<attribute name="VALUE" x="110.744" y="26.416" size="1.778" layer="96" font="vector"/>
+<instance part="P+3" gate="1" x="109.22" y="25.4" smashed="yes">
+<attribute name="VALUE" x="108.204" y="28.956" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -10224,15 +10224,14 @@ programming port.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="12.7" x2="111.76" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="12.7" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="12.7" x2="109.22" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="12.7" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="G$1" pin="CTS"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
-<label x="101.6" y="10.16" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<wire x1="109.22" y1="10.16" x2="109.22" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="10.16" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="G$1" pin="GND"/>
+<junction x="109.22" y="10.16"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
@@ -10425,8 +10424,8 @@ programming port.</text>
 <pinref part="P+2" gate="1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="15.24" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="15.24" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="15.24" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="G$1" pin="VCC"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
 </segment>

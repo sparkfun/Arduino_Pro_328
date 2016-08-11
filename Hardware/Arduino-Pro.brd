@@ -90,10 +90,10 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -8302,7 +8302,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R3" library="SparkFun" package="0402-RES" value="1K" x="46.99" y="43.18" rot="R270">
 <attribute name="PROD_ID" value="RES-07856" x="46.99" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q1" library="SparkFun" package="RESONATOR-SMD" value="RESONATORSMD" x="33.02" y="22.86">
+<element name="Q1" library="SparkFun" package="RESONATOR-SMD" value="8/16MHz" x="33.02" y="22.86">
 <attribute name="PROD_ID" value="XTAL-08900" x="33.02" y="22.86" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S1" library="SparkFun" package="SWITCH-SPST-SMD-A" value="Select" x="10.16" y="1.778" rot="R180">
