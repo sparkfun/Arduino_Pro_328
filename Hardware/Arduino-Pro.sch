@@ -5675,7 +5675,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="SparkFun" deviceset="V_REG_LDO" device="SMD" value="3.3V">
 <attribute name="PROD_ID" value="VREG-00823"/>
 </part>
-<part name="C19" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
+<part name="C19" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF">
+<attribute name="PROD_ID" value="CAP-00811"/>
+</part>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun" deviceset="GND" device=""/>
@@ -9995,6 +9997,7 @@ programming port.</text>
 <instance part="C19" gate="G$1" x="53.34" y="55.88" smashed="yes">
 <attribute name="NAME" x="54.356" y="56.515" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="54.356" y="51.689" size="1.778" layer="96" font="vector"/>
+<attribute name="PROD_ID" x="53.34" y="55.88" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="22.86" y="99.06" smashed="yes">
 <attribute name="VALUE" x="20.32" y="96.52" size="1.778" layer="96" font="vector"/>
