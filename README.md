@@ -41,6 +41,9 @@ Changes to v16 (date code: 12-20-11)
 Changes to v17
 * Added juicy silk graphics
 
+Changes to v18
+* Widened hard-to-read silk text
+
 License Information
 -------------------
 
