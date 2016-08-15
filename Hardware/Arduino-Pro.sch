@@ -5732,7 +5732,7 @@ Revised by: Marshall Taylor</text>
 <text x="5.08" y="142.24" size="3.175" layer="97" font="vector">Power Ports</text>
 <text x="5.08" y="78.74" size="3.175" layer="97" font="vector">Regulation</text>
 <text x="5.08" y="30.48" size="3.175" layer="97" font="vector">Programming</text>
-<text x="119.38" y="170.18" size="3.175" layer="97" font="vector">Microcontroller</text>
+<text x="152.4" y="175.26" size="3.175" layer="97" font="vector">Microcontroller</text>
 <wire x1="63.5" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="97" style="longdash"/>
 <wire x1="2.54" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="106.68" y1="35.56" x2="147.32" y2="35.56" width="0.1524" layer="97" style="longdash"/>
@@ -9856,6 +9856,10 @@ Revised by: Marshall Taylor</text>
 <text x="76.2" y="139.7" size="1.778" layer="97" font="vector" align="top-left">Open jumper to
 isolate reset pin from
 programming port.</text>
+<text x="154.94" y="172.72" size="1.778" layer="97" font="vector" align="top-left">Place 8MHz XTAL for 3.3V
+Place 16MHz XTAL for 5.0V</text>
+<text x="7.62" y="76.2" size="1.778" layer="97" font="vector" align="top-left">Place 3.3V Reg. for 8MHz
+Place 5.0V Reg for 16MHz</text>
 </plain>
 <instances>
 <instance part="JP4" gate="G$1" x="20.32" y="121.92" smashed="yes">
