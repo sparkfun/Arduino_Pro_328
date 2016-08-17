@@ -9856,10 +9856,10 @@ Revised by: Marshall Taylor</text>
 <text x="76.2" y="139.7" size="1.778" layer="97" font="vector" align="top-left">Open jumper to
 isolate reset pin from
 programming port.</text>
-<text x="154.94" y="172.72" size="1.778" layer="97" font="vector" align="top-left">Place 8MHz XTAL for 3.3V
-Place 16MHz XTAL for 5.0V</text>
-<text x="7.62" y="76.2" size="1.778" layer="97" font="vector" align="top-left">Place 3.3V Reg. for 8MHz
-Place 5.0V Reg for 16MHz</text>
+<text x="154.94" y="172.72" size="1.778" layer="97" font="vector" align="top-left">Place 8MHz XTAL for 3.3V (XTAL-08895)
+Place 16MHz XTAL for 5.0V (XTAL-08900)</text>
+<text x="7.62" y="76.2" size="1.778" layer="97" font="vector" align="top-left">Place 3.3V Reg. for 8MHz (VREG-00822)
+Place 5.0V Reg for 16MHz (VREG-00823)</text>
 </plain>
 <instances>
 <instance part="JP4" gate="G$1" x="20.32" y="121.92" smashed="yes">
