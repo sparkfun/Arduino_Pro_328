@@ -5721,7 +5721,7 @@ Max Voltage Input: 16VDC
 Max Current Output: 150mA</text>
 <text x="7.62" y="175.26" size="1.778" layer="97" font="vector" align="top-left">Board is marked with resonator
 frequency and regulator voltage.</text>
-<text x="236.728" y="6.858" size="2.54" layer="94" font="vector">v18</text>
+<text x="236.728" y="6.858" size="2.54" layer="94" font="vector">v20</text>
 <text x="167.64" y="13.462" size="1.524" layer="94" font="vector" align="top-left">Original Arduino Mini Design by Team Arduino
 Arduino Pro Mini Design by Spark Fun Electronics
 Revised by: Marshall Taylor</text>
