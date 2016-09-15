@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,15 +23,15 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -52,13 +52,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -7207,17 +7207,21 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="16.867225" y="26.984503125"/>
 </polygon>
 <text x="-3.81" y="-44.45" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
-<wire x1="-5.08" y1="-43.18" x2="95.25" y2="-43.18" width="0.2032" layer="51"/>
-<wire x1="95.25" y1="-43.18" x2="95.25" y2="-52.07" width="0.2032" layer="51"/>
-<wire x1="95.25" y1="-52.07" x2="95.25" y2="-74.93" width="0.2032" layer="51"/>
-<wire x1="95.25" y1="-74.93" x2="-5.08" y2="-74.93" width="0.2032" layer="51"/>
-<wire x1="-5.08" y1="-74.93" x2="-5.08" y2="-52.07" width="0.2032" layer="51"/>
+<wire x1="-5.08" y1="-43.18" x2="104.14" y2="-43.18" width="0.2032" layer="51"/>
+<wire x1="104.14" y1="-43.18" x2="104.14" y2="-52.07" width="0.2032" layer="51"/>
+<wire x1="104.14" y1="-52.07" x2="104.14" y2="-81.28" width="0.2032" layer="51"/>
+<wire x1="104.14" y1="-81.28" x2="-5.08" y2="-81.28" width="0.2032" layer="51"/>
+<wire x1="-5.08" y1="-81.28" x2="-5.08" y2="-52.07" width="0.2032" layer="51"/>
 <wire x1="-5.08" y1="-52.07" x2="-5.08" y2="-43.18" width="0.2032" layer="51"/>
-<wire x1="-5.08" y1="-52.07" x2="95.25" y2="-52.07" width="0.2032" layer="51"/>
-<text x="-2.54" y="-54.61" size="1.778" layer="51" font="vector" ratio="9" align="top-left">Blue soldermask:
-  Screen color: 0% Red, 39% Green, 59% Blue.
-                  (Hex code: #006496)
-  Pantone: 308 C / 315 U</text>
+<wire x1="-5.08" y1="-52.07" x2="104.14" y2="-52.07" width="0.2032" layer="51"/>
+<text x="-2.54" y="-54.61" size="1.778" layer="51" font="vector" ratio="9" align="top-left">We usually just say "BLUE PCBS" on arduino like blue
+boards, and they come the right color.
+
+More specifically, the soldermask color can be expressed as a
+color of computer pixel ( 0% Red, 39% Green, 59% Blue,
+-- Hex code: #006496 ), or as a Pantone ( Pantone: 308 C / 315 U )
+
+Please email marshall.taylor@sparkfun.com with questions.</text>
 <text x="-2.54" y="-48.26" size="1.778" layer="51" font="vector" ratio="9" align="top-left">(Add these comments when uploading gerbers.)</text>
 <polygon width="0.0254" layer="21">
 <vertex x="40.2844" y="20.32" curve="-90"/>
@@ -7225,7 +7229,7 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="40.9956" y="20.32" curve="-90"/>
 <vertex x="40.64" y="19.9644" curve="-90"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="35.697465625" y="50.788596875"/>
 <vertex x="35.68695" y="50.60281875"/>
 <vertex x="35.651896875" y="50.42055"/>
@@ -7275,7 +7279,7 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="35.651896875" y="51.156640625"/>
 <vertex x="35.68695" y="50.974371875"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="18.816625" y="50.78605625"/>
 <vertex x="18.806109375" y="50.600278125"/>
 <vertex x="18.77105625" y="50.418009375"/>
@@ -7325,7 +7329,7 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="18.77105625" y="51.1541"/>
 <vertex x="18.806109375" y="50.97183125"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="21.356625" y="50.78605625"/>
 <vertex x="21.346109375" y="50.600278125"/>
 <vertex x="21.31105625" y="50.418009375"/>
@@ -7375,7 +7379,7 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="21.31105625" y="51.1541"/>
 <vertex x="21.346109375" y="50.97183125"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="23.896625" y="50.78605625"/>
 <vertex x="23.886109375" y="50.600278125"/>
 <vertex x="23.85105625" y="50.418009375"/>
@@ -7425,7 +7429,7 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="23.85105625" y="51.1541"/>
 <vertex x="23.886109375" y="50.97183125"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="40.777465625" y="50.788596875"/>
 <vertex x="40.76695" y="50.60281875"/>
 <vertex x="40.731896875" y="50.42055"/>
@@ -7475,7 +7479,7 @@ Revised by Pete Lewis and Marshall Taylor</text>
 <vertex x="40.731896875" y="51.156640625"/>
 <vertex x="40.76695" y="50.974371875"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="33.157465625" y="50.788596875"/>
 <vertex x="33.14695" y="50.60281875"/>
 <vertex x="33.111896875" y="50.42055"/>
